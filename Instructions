@@ -1,1 +1,9 @@
+The project is divided into 2 parts, scraping and visualisation.
+Scraping:  First run MahaCovidScraping.py to scrape the web (https://covidindia.org/) and create a csv file (MahaCovid.csv) in your default directory.
+Visualisation: Run the MahaCovidVisual.ipynb (Jupyter Notebook File), where I have created 5 plots displaying the various parameters of Covid-19 state-wise and district-wise
+               using a simple and stacked bar plots, time series of active cases and recovery rate and a subplot showing the inverse ratio of the %recovery rate to the 
+               active cases by month.
 
+Note: Libraries used/required are requests, beautifulsoup, pandas, numpy and matplotlib.
+FYI- The csv files attached along with the code contains RAW data upto 9th January 2021. Also the .py format of visualising part is added, its advisible to 
+use Jupyter Notebook for ease.
